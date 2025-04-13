@@ -13,7 +13,7 @@ function App() {
         <button onClick={increase}> ➕1️⃣ </button>
         <button onClick={decrease}>➖1️⃣</button>
         <button onClick={() => increaseBy(10)}> ➕🔟 </button>
-        <button onClick={() => decreaseBy(20)}>➖🔟 </button>
+        <button onClick={() => decreaseBy(10)}>➖🔟 </button>
       </div>
     </div>
 </>
